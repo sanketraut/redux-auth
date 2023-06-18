@@ -2,13 +2,10 @@ import React from "react";
 import Menubar from "./Menubar";
 import { Container } from "react-bootstrap";
 
-const App = () => {
-  return (
+const Profile = () => (
     <React.Fragment>
-      <Menubar />
-      <Container>Welcome to redux-auth demo</Container>
+        <Menubar />
+        <Container>Hello User</Container>
     </React.Fragment>
-  );
-};
-
-export default App;
+);
+export default Profile;
