@@ -4,6 +4,9 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
 const Menubar = () => {
+  const loginUser = () => {
+    console.log("User logged in")
+  }
   return (
     <React.Fragment>
       <Navbar expand="lg" className="bg-body-tertiary">
@@ -14,7 +17,7 @@ const Menubar = () => {
             <Nav className="me-auto">
               <Nav.Link href="/home">Home</Nav.Link>
               <Nav.Link href="/profile">Profile</Nav.Link>
-              <Nav.Link href="/login">Login</Nav.Link>
+              <Nav.Link onClick={loginUser}>Login</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
