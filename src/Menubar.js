@@ -5,6 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 const Menubar = () => {
   const loginUser = () => {
+    // set the store
     console.log("User logged in")
   }
   return (
