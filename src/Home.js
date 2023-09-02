@@ -1,6 +1,6 @@
 import React from "react";
-import Menubar from "./Menubar";
 import { Container } from "react-bootstrap";
+import Menubar from "./Menubar";
 
 const Home = () => (
     <React.Fragment>
